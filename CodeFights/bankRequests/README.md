@@ -34,8 +34,6 @@ the output should be `bankRequests(accounts, requests) = [-2]`.
 
 **Input/Output**
 
-**Input/Output**
-
 -   **[execution time limit] 4 seconds (js)**
 -   **[input] array.integer accounts**
 
