@@ -1,1 +1,1 @@
-Algorithms I've worked on. Some from my 180 Algorithms in 180 Days.
+Algorithms I've worked on. Some from my 100 Algorithms in 100 Days.
