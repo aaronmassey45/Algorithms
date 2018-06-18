@@ -23,7 +23,7 @@ rotateImage(a) =
 
 **Input/Output**
 **- [execution time limit] 4 seconds (js)**
- **-[input] array.array.interger**
+ **-[input] array.array.integer**
 
  *Guaranteed constraints:*  
  `1 <= a.length <= 100`,  
