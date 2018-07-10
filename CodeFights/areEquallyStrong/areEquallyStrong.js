@@ -4,7 +4,7 @@ function areEquallyStrong(yourLeft, yourRight, friendsLeft, friendsRight) {
   const myStrong = yourLeft > yourRight ? yourLeft : yourRight;
   const friendsStrong = friendsLeft > friendsRight ? friendsLeft : friendsRight;
 
-  return myStrong === friendsStrong ? true : false;
+  return myStrong === friendsStrong;
 }
 
 console.log(areEquallyStrong(10, 15, 5, 20));
