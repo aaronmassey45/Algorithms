@@ -4,3 +4,5 @@ function addTwoDigits(n) {
     .split('')
     .reduce((acc, val) => parseInt(acc) + parseInt(val));
 }
+
+module.exports = addTwoDigits;
