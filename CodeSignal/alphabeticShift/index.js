@@ -5,14 +5,6 @@ function alphabeticShift(inputString) {
     str += String.fromCharCode(newChar);
   }
   return str;
-  // return inputString
-  //   .split('')
-  //   .map(char => {
-  //     const newChar =
-  //       char.charCodeAt(0) + 1 < 123 ? char.charCodeAt(0) + 1 : 97;
-  //     return String.fromCharCode(newChar);
-  //   })
-  //   .join('');
 }
 
 module.exports = alphabeticShift;
