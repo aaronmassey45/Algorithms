@@ -14,6 +14,8 @@ function alternatingSums(a) {
   return Object.values(teams);
 }
 
+module.exports = alternatingSums;
+
 console.log(alternatingSums([50, 60, 60, 45, 70]));
 console.log(alternatingSums([100, 50]));
 console.log(alternatingSums([80]));
