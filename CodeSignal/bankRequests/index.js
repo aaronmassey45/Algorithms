@@ -38,17 +38,4 @@ function bankRequests(accounts, requests) {
   return accounts;
 }
 
-console.log(
-  bankRequests(
-    [261, 56616, 60279, 53365, 18657, 82840, 44790, 83941, 64953, 13422],
-    [
-      'transfer 1 3 68',
-      'transfer 6 9 81881',
-      'withdraw 90 80372',
-      'transfer 4 5 2423',
-      'withdraw 4 73899',
-      'deposit 5 73905',
-      'transfer 7 3 93623',
-    ]
-  )
-);
+module.exports = bankRequests;
