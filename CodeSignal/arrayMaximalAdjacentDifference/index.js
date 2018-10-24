@@ -8,3 +8,5 @@ const arrayMaximalAdjacentDifference = inputArray => {
   });
   return max;
 };
+
+module.exports = arrayMaximalAdjacentDifference;
