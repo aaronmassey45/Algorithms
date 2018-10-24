@@ -1,8 +1,10 @@
 function bankRequests(accounts, requests) {
   accounts.unshift(0);
+
   for (let i = 0; i < requests.length; i++) {
     const request = requests[i];
     const arr = request.split(' ');
+
     switch (arr[0]) {
       case 'withdraw':
         const withdrawAmount = parseInt(arr[2]);
@@ -25,12 +27,13 @@ function bankRequests(accounts, requests) {
         break;
       case 'deposit':
         if (!accounts[arr[1]]) return [-(i + 1)];
-				accounts[arr[1]] += parseInt(arr[2]);
-				break;
+        accounts[arr[1]] += parseInt(arr[2]);
+        break;
       default:
         break;
     }
   }
+
   accounts.shift();
   return accounts;
 }
