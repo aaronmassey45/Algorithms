@@ -1,5 +1,3 @@
-function candies(n, m) {
-	return m - (m % n)
-}
+const candies = (n, m) => m - (m % n);
 
-console.log(candies(4, 10))
+console.log(candies(4, 10));
